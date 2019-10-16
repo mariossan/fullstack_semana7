@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Mansalva&display=swap");
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Nunito Sans', sans-serif;
+}
+h1 {
+   margin: 20px;
+   font-size: 50px;
+}
+input {
+   display: block;
+   margin: 20px;
+   width: 400px;
+   padding: 20px;
+   font-size: 20px;
+   border-radius: 10px !important;
+   background: transparent;
+}
+button {
+   width: 200px;
+   height: 50px;
+   border: none;
+   border-radius: 20px;
+   background: #333;
+   color: #fff;
+   font-size: 20px;
+   margin: 20px;
+}
+
+table tr:nth-child(2n) {
+    transition: all 200ms;
+    background: #e6e6e6;
+}
+
+table tr:hover {
+    background: #6f6f6f;
+    color: #fff;
+    cursor: pointer;
+}
